@@ -2,7 +2,7 @@ import '../index.css';
 import * as THREE from 'three';
 import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls'
 import { BoxGeometry, MeshToonMaterial, SphereGeometry } from 'three';
-import duck from './duck.jpg'
+import duck from './yasuo.jpg'
 import yasuo from './space.jpg'
 import mastery from './moon.jpg'
 console.log('hello')
