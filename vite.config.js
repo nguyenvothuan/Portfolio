@@ -3,10 +3,10 @@ import reactRefresh from '@vitejs/plugin-react-refresh'
 
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/Portfolio/' // Thay tên repository của các bạn vào đây nhé
+    ? '/Portfolio/' 
     : '/'
 }
-// https://vitejs.dev/config/
+// 
 export default defineConfig({
   plugins: [reactRefresh()],
   base: '/Portfolio/'
