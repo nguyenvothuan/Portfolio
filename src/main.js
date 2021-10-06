@@ -6,7 +6,8 @@ import duck from './duck.jpg'
 import yasuo from './space.jpg'
 import mastery from './moon.jpg'
 console.log('hello')
-const scene = new THREE.Scene();
+function ThreeWrapper()
+{const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000)//angle of eyes watching the camera, aspect ratio (size of the monitor), viewer's size,and monitor's size.
 const renderer = new THREE.WebGLRenderer({
   canvas: document.querySelector('#bg')
@@ -87,4 +88,5 @@ function animate() {
   torus.rotation.z += 0.01;
   controls.update();
 }
-animate();
+animate();}
+ThreeWrapper();
